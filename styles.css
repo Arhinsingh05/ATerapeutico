@@ -199,12 +199,12 @@ form button:hover {
 }
 @media screen and (min-width: 1024px) {
   section {
-    max-width: 80%;
+    max-width: 100%;
     height: auto;
   }
 
   section img {
-    width: 80%;
+    width: 60%;
     margin: auto;
     display: block;
   }
