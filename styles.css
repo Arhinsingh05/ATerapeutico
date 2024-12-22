@@ -151,12 +151,12 @@ form button:hover {
   background-color: #c71610;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 768px) {
   .nav-list li a {
     font-size: 24px;
   }
 section{
-  max-width:1023;
+  min-width:1023;
 }
   section p {
     font-size: 24px;
@@ -164,7 +164,7 @@ section{
 
   section img {
     width: 60%;
-    margin: 10px;
+    margin: auto;
     display: block;
   }
 
